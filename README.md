@@ -1,4 +1,4 @@
 genesis
 =======
 
-hooks used for genesis framework customization
+these are the hooks that I use for customizing themes that are using the genesis framework.
