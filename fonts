@@ -1,0 +1,5 @@
+//* Load Google fonts Libre Baskerville and Roboto
+add_action( 'wp_enqueue_scripts', 'custom_google_fonts' );
+function custom_google_fonts() {
+	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Libre+Baskerville:400italic|Roboto:400,300', array(), PARENT_THEME_VERSION );
+}

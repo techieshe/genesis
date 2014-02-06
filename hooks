@@ -1,5 +1,0 @@
-//* Load Muli, Roboto Slab and Sacramento Google fonts
-add_action( 'wp_enqueue_scripts', 'custom_google_fonts' );
-function custom_google_fonts() {
-	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Muli|Roboto+Slab|Sacramento', array(), PARENT_THEME_VERSION );
-}
