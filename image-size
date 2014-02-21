@@ -1,0 +1,2 @@
+//* Add new featured image sizes
+add_image_size( 'home-featured', 300, 200, TRUE );
