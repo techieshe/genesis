@@ -1,0 +1,6 @@
+//* Add support for additional color styles
+add_theme_support( 'genesis-style-selector', array(
+	'theme-blue'  => __( 'Theme Blue', 'themename' ),
+	'theme-green' => __( 'Theme Green', 'themename' ),
+	'theme-red'   => __( 'Theme Red', 'themename' )
+) );
