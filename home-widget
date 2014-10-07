@@ -1,0 +1,17 @@
+/** Register widget areas */
+genesis_register_sidebar( array(
+'id' => 'home-top',
+'name' => __( 'Home Top', 'genesis' ),
+'description' => __( 'This is the widget area at the top of content on home page.', 'techieshe' ),
+) );
+ 
+/** Add the home top widget section */
+add_action( 'genesis_before_content_sidebar_wrap', 'home_top_widget' );
+function home_top_widget() {
+if ( ! is_home() )
+return;
+genesis_widget_area( 'home-top', array(
+'before' => '<div class="home-top widget-area">',
+'after' => '</div>',
+) );
+}
