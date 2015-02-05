@@ -1,0 +1,2 @@
+//* Remove the entry meta in the entry footer
+remove_action( 'genesis_entry_footer', 'genesis_post_meta' ); 
